@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+html {
+  @apply scroll-smooth antialiased bg-white;
+}
+body {
+  @apply font-body text-indigo-900 bg-orange-50 text-base sm:text-xl xl:text-2xl font-medium leading-relaxed;
+}
+.caixa {
+  @apply mx-auto w-[90%] max-w-7xl relative;
+}
+h1,
+h2 {
+  @apply font-display font-bold;
+}
+button:not(:disabled),
+[role="button"]:not(:disabled) {
+  cursor: pointer;
+}
+a,
+button {
+  @apply transition-all duration-200;
+}
+p {
+  /* Define un var --lh (unitless) que usamos tanto para line-height como para calcular el margin-bottom. */
+  --lh: 1.625; /* ajústalo a tu preferencia (p. ej. 1.5, 1.6, etc.) */
+  line-height: var(--lh);
+  /* margin-bottom = 2 × line-height × font-size => calc(2 * var(--lh) * 1em) */
+  margin-bottom: calc(1 * var(--lh) * 1em);
+}
+p:last-child {
+  margin-bottom: 0;
+}
+
+@theme {
+  --font-body: "Lora Variable", serif;
+  --font-display: "Jost Variable", sans-serif;
+  --aspect-raiz: 1.4 / 1;
+  --aspect-libro: 1 / 1.8;
+}

@@ -1,11 +1,37 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import Layout from "../layouts/Layout.astro";
+import { Image } from "astro:assets";
+import imagenAuga from "../assets/auga.webp";
+import imagenMario from "../assets/todo_mario.webp";
+import imagenCunchaDorada from "../assets/Cuncha-dorada.webp";
 ---
 
 <Layout>
-	<Welcome />
+  <div class="mx-auto w-[90%] bg-slate-700">
+    <Image src={imagenAuga} alt="Imagen de agua" class="w-full" />
+  </div>
+  <div class="caixa">
+    <Image src={imagenMario} alt="Imagen de agua" class="mx-auto max-w-xs my-24" />
+  </div>
+  <div class="caixa">
+    <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-16">
+      <div>
+        <p>
+          With its <b>8 historic routes of the Camino de Santiago</b> and its <b>21 spas</b>, Galicia boasts <b>12 centuries of pilgrimage</b> and more than <b>2,000 years of thermal tradition.</b> This corner in the southwest of Europe is the perfect place to relax after a Camino full of sensory delights.
+          Galicia, the land of water, offers a journey through <b>3000 rivers, 2,500 km of coastline, 316 islands and 98 protected natural areas.</b>
+        </p>
+      </div>
+      <div>
+        <p>A thermal paradise with a rich history that once formed the <b>first kingdom in Europe,</b> featuring nowadays <b>4 UNESCO World Heritage Sites, 7,000 festivals and 12 historic Paradores.</b></p>
+        <p>A wellness experience complemented by a vibrant gastronomy, with <b>17 Michelin starred restaurants</b> and <b>5 designations of origin.</b></p>
+      </div>
+    </div>
+  </div>
+  <div class="caixa my-12 py-12 bg-orange-50">
+    <div class="text-center">
+      Discover your own path:<br />
+      <b>Galicia, spa pilgrimage in Spain</b>
+    </div>
+    <Image src={imagenCunchaDorada} alt="Imagen de agua" class="mx-auto max-w-xs" />
+  </div>
 </Layout>
