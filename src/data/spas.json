@@ -3,66 +3,66 @@
         "titulo": "Iberik Gran Balneario de Guitiriz & Golf",
         "subtitulo": "A Spa Forest",
         "enlace": "https://iberikhoteles.com/hoteles/iberik-guitiriz-balneario/",
-        "imagen": ""
+        "imagen": "guitiriz.jpg"
     },
     {
         "titulo": "Iberik Augas Santas Balneario & Golf",
         "subtitulo": "A Sacred Spa",
         "enlace": "https://iberikhoteles.com/hoteles/iberik-augas-santas-balneario-golf/",
-        "imagen": ""
+        "imagen": "augassantas.jpg"
     },
     {
         "titulo": "Laias Caldaria",
         "subtitulo": "A Sport Spa",
         "enlace": "https://www.caldaria.es/experiencia/santiago-way-and-thermalism/",
-        "imagen": ""
+        "imagen": "laias.jpg"
     },
     {
         "titulo": "Gran Talaso Hotel Sanxenxo",
         "subtitulo": "A seaside Spa",
         "enlace": "https://www.hotelsanxenxo.com/en-GB/index.aspx",
-        "imagen": ""
+        "imagen": "sanxenxo.jpg"
     },
     {
         "titulo": "Balneario Termas de Cuntis",
         "subtitulo": "A River Spa",
         "enlace": "https://en.termasdecuntis.com/",
-        "imagen": ""
+        "imagen": "cuntis.webp"
     },
     {
-        "titulo": "Gran Hotel La Toja / Hotel Isla de la Toja / Talaso Louxo La Toja",
+        "titulo": "Gran Hotel La Toja Hotel Isla de la Toja Talaso Louxo La Toja",
         "subtitulo": "A Spa Island",
         "enlace": "https://www.eurostarshotels.com/escapada-termal-isla-toja-en",
-        "imagen": ""
+        "imagen": "toja.jpg"
     },
     {
         "titulo": "Tee Travel",
         "subtitulo": "A Experience Spa",
         "enlace": "https://www.tee-travel.com/",
-        "imagen": ""
+        "imagen": "tee.webp"
     },
     {
         "titulo": "Balneario de Mondariz",
         "subtitulo": "A Spa Village",
         "enlace": "https://www.balneariomondariz.es/",
-        "imagen": ""
+        "imagen": "mondariz.webp"
     },
     {
         "titulo": "Hostal Reis Católicos",
         "subtitulo": "A King´s Hotel",
         "enlace": "https://paradores.es/en/parador-de-santiago-de-compostela",
-        "imagen": ""
+        "imagen": "reiscatolicos.jpg"
     },
     {
         "titulo": "Parador Costa da Morte",
         "subtitulo": "The End Spa",
         "enlace": "https://paradores.es/es/parador-costa-da-morte",
-        "imagen": ""
+        "imagen": "costadamorte.jpg"
     },
     {
         "titulo": "Talaso Cantábrico Las Sirenas",
         "subtitulo": "A Sea Spa",
         "enlace": "https://www.resortlassirenas.com/en/",
-        "imagen": ""
+        "imagen": "sirenas.jpg"
     }
 ]

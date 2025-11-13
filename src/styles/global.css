@@ -42,6 +42,5 @@ p:last-child {
 @theme {
   --font-body: "Lora Variable", serif;
   --font-display: "Jost Variable", sans-serif;
-  --aspect-raiz: 1.4 / 1;
-  --aspect-libro: 1 / 1.8;
+  --aspect-doble: 1 / 1.7;
 }
