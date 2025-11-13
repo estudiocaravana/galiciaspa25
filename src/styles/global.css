@@ -10,8 +10,15 @@ body {
   @apply mx-auto w-[90%] max-w-7xl relative;
 }
 h1,
-h2 {
+h2,
+h3 {
   @apply font-display font-bold;
+}
+h1{
+  @apply text-4xl sm:text-5xl mb-18;
+}
+h3  {
+  @apply text-2xl sm:text-3xl mb-4;
 }
 button:not(:disabled),
 [role="button"]:not(:disabled) {

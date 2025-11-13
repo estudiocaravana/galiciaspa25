@@ -8,18 +8,28 @@ import movilCamino from "../assets/camino.webp";
 
 <div class="bg-white py-24">
   <div class="caixa">
-    <div class="flex items-center justify-center gap-24">
+    <div class="flex flex-col md:flex-row items-center justify-center gap-24">
       <div>
-        <div class="overflow-hidden rounded-2xl shadow-xl shadow-indigo-900/30 w-fit">
-          <Image src={movilCamino} alt="Logo Xunta de Galicia" class="max-w-60" />
-        </div>
-        <p class="block max-w-70 text-base mt-6">Live the Experience<br />of the Way of Saint James <a href="http://www.caminodesantiago.gal" class="block underline">caminodesantiago.gal</a></p>
+        <a href="https://www.caminodesantiago.gal/en/inicio" target="_blank" class="relative block overflow-hidden rounded-2xl shadow-xl shadow-indigo-900/30 hover:shadow-lg hover:text-orange-500 w-fit p-3">
+          <Image src={movilCamino} alt="Logo Xunta de Galicia" class="max-w-60 rounded-lg" />
+          <div class="absolute bg-white bottom-0 right-0 w-12 h-12 rounded-lg pl-3 pt-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link-icon lucide-external-link">
+              <path d="M15 3h6v6"></path><path d="M10 14 21 3"></path><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+            </svg>
+          </div>
+        </a>
+        <p class="block max-w-70 text-base mt-6">Live the Experience<br />of the Way of Saint James <a href="https://www.caminodesantiago.gal/en/inicio" target="_blank" class="block underline hover:text-orange-500">caminodesantiago.gal</a></p>
       </div>
       <div>
-        <div class="overflow-hidden rounded-2xl shadow-xl shadow-indigo-900/30 w-fit">
-          <Image src={movilTurismo} alt="Logo Turismo de Galicia" class="max-w-60" />
-        </div>
-        <p class="block max-w-70 text-base mt-6">What if quality<br />were a place? <a href="http://www.caminodesantiago.gal" class="block underline">turismo.gal</a></p>
+        <a href="https://www.turismo.gal/inicio?langId=en_US" target="_blank" class="relative block overflow-hidden rounded-2xl shadow-xl shadow-indigo-900/30 hover:shadow-lg hover:text-orange-500 w-fit p-3">
+          <Image src={movilTurismo} alt="Logo Turismo de Galicia" class="max-w-60 rounded-lg" />
+          <div class="absolute bg-white bottom-0 right-0 w-12 h-12 rounded-lg pl-3 pt-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link-icon lucide-external-link">
+              <path d="M15 3h6v6"></path><path d="M10 14 21 3"></path><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+            </svg>
+          </div>
+        </a>
+        <p class="block max-w-70 text-base mt-6">What if quality<br />were a place? <a href="https://www.turismo.gal/inicio?langId=en_US" target="_blank" class="block underline hover:text-orange-500">turismo.gal</a></p>
       </div>
     </div>
   </div>
@@ -27,18 +37,22 @@ import movilCamino from "../assets/camino.webp";
 <div class="caixa">
   <div class="flex items-center justify-center gap-12">
     <div>
-      <Image src={imagenXunta} alt="Logo Xunta de Galicia" class="max-w-44" />
+      <Image src={imagenXunta} alt="Logo Xunta de Galicia" class="max-w-24 sm:max-w-44" />
     </div>
     <div>
-      <Image src={imagenTurismo} alt="Logo Turismo de Galicia" class="max-w-55" />
+      <Image src={imagenTurismo} alt="Logo Turismo de Galicia" class="max-w-32 sm:max-w-55" />
     </div>
   </div>
 </div>
-<div class="flex justify-between mx-5">
+<div class="flex justify-between p-5">
   <div>
-    <a href="">Legal terms</a>
+    <a href="/legal" class="text-sm">Legal Notice</a>
   </div>
   <div>
-    <button onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">Ir arriba</button>
+    <button onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-chevron-up-icon lucide-circle-chevron-up">
+        <circle cx="12" cy="12" r="10"></circle><path d="m8 14 4-4 4 4"></path>
+      </svg>
+    </button>
   </div>
 </div>

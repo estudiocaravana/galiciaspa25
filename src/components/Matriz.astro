@@ -1,0 +1,15 @@
+---
+import type { data } from "autoprefixer";
+import Spas from "../data/spas.json";
+---
+
+<div class="caixa grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 my-24">
+  {
+    Spas.map((spa) => (
+      <div>
+        <h2>{spa.titulo}</h2>
+        <p>{spa.subtitulo}</p>
+      </div>
+    ))
+  }
+</div>
