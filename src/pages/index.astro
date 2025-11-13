@@ -3,25 +3,26 @@ import Layout from "../layouts/Layout.astro";
 import { Image } from "astro:assets";
 import imagenAuga from "../assets/auga.webp";
 import imagenMario from "../assets/todo_mario.webp";
-import imagenCunchaDorada from "../assets/Cuncha-dorada.webp";
+import imagenCunchaDorada from "../assets/cuncha-dorada-figma.webp";
+import mapaLineas from "../assets/mapa_lineas.webp";
 ---
 
 <Layout>
-  <div class="mx-auto w-[90%] bg-slate-700">
+  <div class="mx-5 lg:mx-12 bg-slate-700">
     <Image src={imagenAuga} alt="Imagen de agua" class="w-full" />
   </div>
   <div class="caixa">
-    <Image src={imagenMario} alt="Imagen de agua" class="mx-auto max-w-xs my-24" />
+    <Image src={imagenMario} alt="Imagen de agua" class="mx-auto max-w-60 sm:max-w-xs my-24 bg-orange-50 py-12" />
   </div>
   <div class="caixa">
     <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-16">
-      <div>
+      <div class="bg-orange-50">
         <p>
           With its <b>8 historic routes of the Camino de Santiago</b> and its <b>21 spas</b>, Galicia boasts <b>12 centuries of pilgrimage</b> and more than <b>2,000 years of thermal tradition.</b> This corner in the southwest of Europe is the perfect place to relax after a Camino full of sensory delights.
           Galicia, the land of water, offers a journey through <b>3000 rivers, 2,500 km of coastline, 316 islands and 98 protected natural areas.</b>
         </p>
       </div>
-      <div>
+      <div class="bg-orange-50 pt-6 lg:pt-0">
         <p>A thermal paradise with a rich history that once formed the <b>first kingdom in Europe,</b> featuring nowadays <b>4 UNESCO World Heritage Sites, 7,000 festivals and 12 historic Paradores.</b></p>
         <p>A wellness experience complemented by a vibrant gastronomy, with <b>17 Michelin starred restaurants</b> and <b>5 designations of origin.</b></p>
       </div>
@@ -33,5 +34,8 @@ import imagenCunchaDorada from "../assets/Cuncha-dorada.webp";
       <b>Galicia, spa pilgrimage in Spain</b>
     </div>
     <Image src={imagenCunchaDorada} alt="Imagen de agua" class="mx-auto max-w-xs" />
+  </div>
+  <div class="caixa">
+    <Image src={mapaLineas} alt="Mapa de rutas" class="bg-orange-50" />
   </div>
 </Layout>

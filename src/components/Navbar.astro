@@ -1,1 +1,10 @@
-<div class="caixa">Navbar</div>
+---
+import { Image } from "astro:assets";
+import imgCuncha from "../assets/cuncha.webp";
+---
+
+<div class="caixa py-3">
+  <a href="/" class="block mx-auto w-fit">
+    <Image src={imgCuncha} alt="Logo Turismo de Galicia" class="w-5" />
+  </a>
+</div>

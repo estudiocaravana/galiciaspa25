@@ -1,4 +1,44 @@
+---
+import { Image } from "astro:assets";
+import imagenXunta from "../assets/xunta_sky.webp";
+import imagenTurismo from "../assets/galicia_sky.webp";
+import movilTurismo from "../assets/turismo.webp";
+import movilCamino from "../assets/camino.webp";
+---
+
 <div class="bg-white py-24">
-  <div class="caixa">mobiles</div>
+  <div class="caixa">
+    <div class="flex items-center justify-center gap-24">
+      <div>
+        <div class="overflow-hidden rounded-2xl shadow-xl shadow-indigo-900/30 w-fit">
+          <Image src={movilCamino} alt="Logo Xunta de Galicia" class="max-w-60" />
+        </div>
+        <p class="block max-w-70 text-base mt-6">Live the Experience<br />of the Way of Saint James <a href="http://www.caminodesantiago.gal" class="block underline">caminodesantiago.gal</a></p>
+      </div>
+      <div>
+        <div class="overflow-hidden rounded-2xl shadow-xl shadow-indigo-900/30 w-fit">
+          <Image src={movilTurismo} alt="Logo Turismo de Galicia" class="max-w-60" />
+        </div>
+        <p class="block max-w-70 text-base mt-6">What if quality<br />were a place? <a href="http://www.caminodesantiago.gal" class="block underline">turismo.gal</a></p>
+      </div>
+    </div>
+  </div>
 </div>
-<div class="caixa">Footer</div>
+<div class="caixa">
+  <div class="flex items-center justify-center gap-12">
+    <div>
+      <Image src={imagenXunta} alt="Logo Xunta de Galicia" class="max-w-44" />
+    </div>
+    <div>
+      <Image src={imagenTurismo} alt="Logo Turismo de Galicia" class="max-w-55" />
+    </div>
+  </div>
+</div>
+<div class="flex justify-between mx-5">
+  <div>
+    <a href="">Legal terms</a>
+  </div>
+  <div>
+    <button onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">Ir arriba</button>
+  </div>
+</div>
