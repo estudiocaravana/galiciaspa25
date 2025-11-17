@@ -5,8 +5,7 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://estudiocaravana.github.io",
-  base: "/galiciaspa25/",
+  site: "https://galiciaspapilgrimage.com/",
   vite: {
     plugins: [tailwindcss()],
   },
