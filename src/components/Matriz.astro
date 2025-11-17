@@ -11,7 +11,7 @@ import Spas from "../data/spas.json";
     Spas.map((spa) => (
       <a href={spa.enlace} target="_blank" class="relative max-w-70 mx-auto bg-orange-50 border border-indigo-700 rounded-t-full rounded-b-full overflow-hidden text-center p-3 hover:bg-white hover:text-orange-500 hover:shadow-xl hover:shadow-indigo-800/30">
         <div class="aspect-doble bg-indigo-500 rounded-t-full">
-          <img src={`/spas/${spa.imagen}`} alt={spa.titulo} class="w-full h-full object-cover rounded-t-full" />
+            <img src={import.meta.env.BASE_URL + `spas/${spa.imagen}`} alt={spa.titulo} class="w-full h-full object-cover rounded-t-full" />
         </div>
         <h4 class="mt-6 inline-block leading-snug max-w-60 font-body font-medium text-xl">{spa.titulo}</h4>
         <span class="block text-base mb-24 font-display text-orange-500">{spa.subtitulo}</span>
