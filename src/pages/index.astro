@@ -2,6 +2,7 @@
 import Layout from "../layouts/Layout.astro";
 import { Image } from "astro:assets";
 import imagenAuga from "../assets/auga.webp";
+import Video from "../components/Video.astro";
 import imagenMario from "../assets/todo_mario.webp";
 import imagenCunchaDorada from "../assets/cuncha-dorada-figma.webp";
 import mapaLineas from "../assets/mapa_lineas.webp";
@@ -9,8 +10,8 @@ import Matriz from "../components/Matriz.astro";
 ---
 
 <Layout>
-  <div class="mx-5 lg:mx-12 bg-slate-700">
-    <Image src={imagenAuga} alt="Imagen de agua" class="w-full" />
+  <div class="bg-indigo-700">
+    <Video />
   </div>
   <div class="caixa">
     <Image src={imagenMario} alt="Imagen de agua" class="mx-auto max-w-60 sm:max-w-xs my-24 bg-orange-50 py-12" />
