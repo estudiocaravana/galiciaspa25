@@ -1,4 +1,10 @@
 [
+        {
+        "titulo": "Balneario de Lugo",
+        "subtitulo": "A Roman Spa",
+        "enlace": "https://balneariodelugo.com/en/rest-on-the-primitive-path/",
+        "imagen": "lugo.webp"
+    },
     {
         "titulo": "Iberik Gran Balneario de Guitiriz & Golf",
         "subtitulo": "A Spa Forest",
@@ -30,10 +36,28 @@
         "imagen": "cuntis.webp"
     },
     {
-        "titulo": "Gran Hotel La Toja Hotel Isla de la Toja Talaso Louxo La Toja",
+        "titulo": "Thermal getaway",
         "subtitulo": "A Spa Island",
         "enlace": "https://www.eurostarshotels.com/escapada-termal-isla-toja-en",
         "imagen": "toja.jpg"
+    },
+    {
+        "titulo": "Gran Hotel La Toja",
+        "subtitulo": "A Spa Island",
+        "enlace": "https://www.eurostarshotels.co.uk/eurostars-gran-hotel-la-toja.html",
+        "imagen": "gran_hotel.webp"
+    },
+    {
+        "titulo": "Hotel Isla de La Toja",
+        "subtitulo": "A Spa Island",
+        "enlace": "https://www.eurostarshotels.co.uk/eurostars-isla-de-la-toja.html",
+        "imagen": "hotel.webp"
+    },
+    {
+        "titulo": "Talaso Louxo La Toja",
+        "subtitulo": "A Spa Island",
+        "enlace": "https://www.eurostarshotels.co.uk/eurostars-louxo-talaso.html",
+        "imagen": "louxo.webp"
     },
     {
         "titulo": "Tee Travel",
